@@ -1,0 +1,11 @@
+
+.form{
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}

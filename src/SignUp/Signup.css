@@ -1,0 +1,148 @@
+.form-container{
+    display: flex;
+    flex-direction: row;
+    /* gap: 20px; */
+}
+.Image-container{
+     background-image: url("src/assets/images/bgimage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 760px;
+    width: 600px;
+    padding: 25px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.Image-container h3{
+    color: #fff;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.Image-container p{
+    padding-top: 30px;
+    color: #fff;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 750px;
+    padding: 30px;
+    background-color: #fff;
+     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+     border-top-right-radius: 12px;
+     border-bottom-right-radius: 12px;
+}
+.form h2{
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 36px;
+    padding-top: 0;
+    font-size: 2rem;
+    color: #013873;
+}
+
+.inputName {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.Input{
+    display: flex;
+    flex-direction: column;
+    /* gap: 4px; */
+     
+}
+.Input span{
+    color: #ff0000;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    width: 100%;
+}
+.contact select{
+    border-radius: 12px;
+    border: none;
+    background-color: #e8edfc;
+    border: 1px solid #e8edfc;
+    padding: 12px;
+}
+.contact input{
+    border: none;
+    width: 100%;
+    outline: none;
+    background-color: #e8edfc;
+    
+}
+.inputIcon{
+    padding: 12px;
+    /* border: 1px solid #000; */
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    color: #000;
+    background-color: #e8edfc;
+
+}
+.inputIcon input{
+    border: none;
+    width: 100%;
+    outline: none;
+    background-color: #e8edfc;
+}
+.Input label{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+.inputarea{
+    padding-bottom: 20px;
+
+}
+.Input{
+    width: 100%;
+}
+button{
+    width: 100%;
+    padding: 16px;
+    border-radius: 12px;
+    background-color: #013873;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 16px;
+}
+button:hover{
+    cursor: pointer;
+}
+.bottomText{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.bottomText p{
+    color: #000;
+    padding-top: 14px;
+}
+
+
+.error-text{
+    margin: 0;
+    padding: 0;
+}
+.inputarea span{
+    line-height: 0;
+}
